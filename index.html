@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIDCO - Soluciones Tecnológicas</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    <link rel="apple-touch-icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin="">
+  </head>
+  <body>
+    <!-- MARCA DE AGUA DEMO -->
+    <div class="demo-watermark">DEMO</div>
+    
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo"><img src="img/logo.png" alt="AIDCO"></div>
+      <div class="navbar-center">
+        <span class="brand">AIDCO</span>
+        <span class="divider">•</span>
+        <a class="phone" href="tel:+526646290011"><span class="pointer-emoji">👉</span> Tel: +52 (664) 629-00-11</a>
+      </div>
+      <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Soluciones Profesionales en Telecomunicaciones</h1>
+        <p>
+          AIDCO ofrece servicios de cableado, seguridad, fibra óptica y más.
+        </p>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+      <div class="nosotros-content">
+        <h2>Nosotros</h2>
+        <p>
+          AIDCO es una empresa con más de 20 años de experiencia en el mercado de las Telecomunicaciones, iniciando en E.U.A al paso del tiempo se logró con la filial mexicana se independizará quedando establecida en Tijuana B.C, convirtiéndose en una empresa nacional cubriendo desde:
+        </p>
+        <ul class="nosotros-lista">
+          <li>Escuelas</li>
+          <li>Empresas públicas</li>
+          <li>Empresas privadas</li>
+          <li>Maquiladoras</li>
+          <li>Licitaciones de gobierno</li>
+        </ul>
+        <p>
+          Cuenta con la capacidad de soporte para proyectos de alto nivel asegurando respaldo en todo momento ya que su filosofía está enfocada en la garantía de satisfacción y dando valor agregado a sus clientes como empresa consolidada.
+        </p>
+      </div>
+    </section>
+
+    <!-- NUESTROS VALORES -->
+    <section id="valores" class="valores">
+      <h2>Nuestros Valores</h2>
+      <div class="valores-container">
+        <div class="valor-card valor-card--left">
+          <div class="valor-image">
+            <img src="img/misión.png" alt="Misión AIDCO">
+          </div>
+        </div>
+
+        <div class="valor-card valor-card--right">
+          <div class="valor-image">
+            <img src="img/visión.png" alt="Visión AIDCO">
+          </div>
+        </div>
+
+        <div class="valor-card valor-card--left">
+          <div class="valor-image">
+            <img src="img/valores.png" alt="Valores AIDCO">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+      <h2>Nuestros Servicios</h2>
+
+      <div class="cards-container">
+        <div class="card card-cover">
+          <h3>Cableado Estructurado</h3>
+          <p>
+            El Cableado Estructurado es la base de una red confiable y organizada
+            dentro de cualquier empresa u oficina. Consiste en la instalación y
+            distribución correcta de cables de datos, voz y equipos de comunicación,
+            siguiendo normas internacionales que garantizan orden, rendimiento y
+            facilidad de mantenimiento.
+          </p>
+          <p>
+            En AIDCO diseñamos e instalamos redes estructuradas de alta calidad,
+            certificadas y preparadas para soportar conexiones rápidas, crecimiento
+            futuro y un funcionamiento estable en todos tus sistemas tecnológicos.
+          </p>
+        </div>
+
+        <div class="card card-cover card-cover--cctv">
+          <h3>CCTV</h3>
+          <p>
+            CCTV es un sistema de videovigilancia que permite monitorear y
+            grabar en tiempo real las áreas importantes de una empresa, hogar o
+            negocio. Utiliza cámaras estratégicamente ubicadas para brindar
+            seguridad, control y evidencia visual ante cualquier incidente.
+          </p>
+          <p>
+            Ofrecemos instalación profesional, configuración remota, sistemas HD y 4K,
+            grabación continua, acceso desde el celular y monitoreo inteligente para
+            garantizar la protección total de tus instalaciones.
+          </p>
+        </div>
+
+        <div class="card card-cover card-cover--fibra">
+          <h3>Fibra Óptica</h3>
+          <p>
+            La Fibra Óptica es la tecnología más avanzada para la transmisión de
+            datos a alta velocidad. Utiliza hilos de vidrio o plástico que
+            transportan información mediante pulsos de luz, logrando conexiones
+            mucho más rápidas, estables y seguras que los cables tradicionales.
+          </p>
+          <p>
+            Ofrecemos instalación, empalme, certificación y mantenimiento de redes
+            de fibra óptica para garantizar máximo rendimiento, baja latencia y una
+            comunicación confiable, ideal para empresas, industrias y centros de
+            datos.
+          </p>
+        </div>
+
+        <div class="card card-cover card-cover--control">
+          <h3>Control de Acceso</h3>
+          <p>
+            El Control de Acceso permite gestionar y restringir la entrada a áreas
+            específicas mediante dispositivos como tarjetas, huellas digitales,
+            lectores biométricos y contraseñas.
+          </p>
+          <p>
+            Este sistema brinda seguridad, orden y trazabilidad, registrando quién
+            entra, a qué hora y desde qué punto.
+          </p>
+          <p>
+            En AIDCO instalamos y configuramos soluciones de control de acceso para
+            empresas, oficinas, almacenes y áreas restringidas, garantizando un
+            manejo eficiente del personal, protección de activos y acceso únicamente
+            a personas autorizadas.
+          </p>
+        </div>
+
+        <div class="card card-cover card-cover--tierras">
+          <h3>Sistemas de Tierras Físicas</h3>
+          <p>
+            Los Sistemas de Tierras Físicas son esenciales para proteger equipos,
+            instalaciones y personal contra descargas eléctricas, fallas de energía y
+            sobretensiones.
+          </p>
+          <p>
+            Este sistema dirige de forma segura la corriente no deseada hacia la tierra,
+            evitando daños en equipos sensibles y reduciendo riesgos eléctricos.
+          </p>
+          <p>
+            En AIDCO diseñamos, instalamos y medimos sistemas de puesta a tierra de
+            acuerdo con normas oficiales, garantizando seguridad, estabilidad eléctrica
+            y correcto funcionamiento de toda tu infraestructura tecnológica e
+            industrial.
+          </p>
+        </div>
+
+        <div class="card card-cover card-cover--telefonia">
+          <h3>Sistemas de Telefonía</h3>
+          <p>
+            Implementamos soluciones de telefonía empresarial basadas en PBX y VoIP
+            para comunicación clara, estable y escalable. Integramos extensiones,
+            troncales SIP, enrutamiento de llamadas, IVR y buzón de voz.
+          </p>
+          <p>
+            Ofrecemos instalación y configuración de conmutadores, teléfonos IP,
+            enlaces a líneas tradicionales y plataformas en la nube, con soporte para
+            grabación, reportes y control de calidad.
+          </p>
+          <p>
+            Habilitamos acceso remoto, integración con CRM y aplicaciones de usuario
+            profesional para equipos en oficina y trabajo híbrido.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="ubicacion">
+      <h2>Ubicación</h2>
+      <div class="ubicacion-content">
+        <div class="ubicacion-info">
+          <h3>Visítanos</h3>
+          <p><strong>Dirección:</strong> Avenida Ejército Nacional 3, Tomas Aquino, 22414 Tijuana, B.C.</p>
+          <p><strong>Teléfono:</strong> <a href="tel:+526646290011">+52 (664) 629-00-11</a></p>
+          <p><strong>Email:</strong> <a href="mailto:ar@aidco.com.mx">ar@aidco.com.mx</a></p>
+          <p><strong>Horarios:</strong> Lunes a Viernes 8:00 AM - 6:00 PM</p>
+        </div>
+        <div class="ubicacion-mapa">
+          <div id="mapa-leaflet" class="mapa-container"></div>
+          <a 
+            href="https://www.google.com/maps/dir/?api=1&destination=32.52605927889032,-116.98369938225481&destination_place_id=ChIJAQAAAAAAAAAAAAAAAAAAAA" 
+            target="_blank" 
+            class="direcciones-btn">
+            📍 Cómo llegar desde mi ubicación
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="galeria">
+      <h2>Galería de Imágenes</h2>
+
+      <div class="galeria-grid">
+        <img src="img/cableado-estructurado-slide.jpg" alt="Cableado Estructurado" onclick="openModal(this)">
+        <img src="img/CCTV-slide.jpg" alt="Sistema CCTV" onclick="openModal(this)">
+        <img src="img/Control-de-acceso-slide.jpg" alt="Control de Acceso" onclick="openModal(this)">
+        <img src="img/Enlaces-Inalambricos-slide.jpg" alt="Enlaces Inalámbricos" onclick="openModal(this)">
+        <img src="img/fibra-optica-(1).jpg" alt="Fibra Óptica 1" onclick="openModal(this)">
+        <img src="img/fibra-optica-(2).jpg" alt="Fibra Óptica 2" onclick="openModal(this)">
+        <img src="img/fibra-optica-(3).jpg" alt="Fibra Óptica 3" onclick="openModal(this)">
+        <img src="img/exp-telecom.jpg" alt="Experiencia Telecomunicaciones" onclick="openModal(this)">
+        <img src="img/HOME2_.jpg" alt="Instalación Residencial" onclick="openModal(this)">
+        <img src="img/ROUTERSWITCH2.jpg" alt="Router y Switch" onclick="openModal(this)">
+        <img src="img/IMG_8335.jpg" alt="Proyecto 1" onclick="openModal(this)">
+        <img src="img/IMG_8336.jpg" alt="Proyecto 2" onclick="openModal(this)">
+        <img src="img/IMG_8337.jpg" alt="Proyecto 3" onclick="openModal(this)">
+        <img src="img/SERVICIOS.jpg" alt="Servicios AIDCO" onclick="openModal(this)">
+        <img src="img/Certificaciones-2018.jpg" alt="Certificaciones" onclick="openModal(this)">
+        <img src="img/LOGOS-DE-MARCAS.jpg" alt="Marcas Asociadas" onclick="openModal(this)">
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <h2>CONTACTO</h2>
+      <div class="contacto-container">
+        <form action="#" method="POST" class="contacto-form-modern">
+          <div class="form-row">
+            <div class="form-field">
+              <label>Nombre</label>
+              <input type="text" name="nombre" required>
+            </div>
+            
+            <div class="form-field">
+              <label>Correo electrónico</label>
+              <input type="email" name="email" required>
+            </div>
+          </div>
+          
+          <div class="form-field form-field-full">
+            <label>Asunto</label>
+            <input type="text" name="asunto" required>
+          </div>
+          
+          <div class="form-field form-field-full">
+            <label>Mensaje</label>
+            <textarea name="mensaje" rows="3" required></textarea>
+          </div>
+          
+          <button type="submit" class="enviar-btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ESPACIADOR -->
+    <div class="espaciador-footer"></div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <h3>AIDCO</h3>
+          <p>Soluciones integrales en telecomunicaciones y seguridad.</p>
+          <img src="img/logo.png" alt="AIDCO Logo" class="footer-logo">
+        </div>
+
+        <div>
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <p>Email: ar@aidco.com.mx</p>
+          <p><a href="tel:+526646290011" class="footer-phone"><span class="pointer-emoji">👉</span> Tel: +52 (664) 629-00-11</a></p>
+        </div>
+
+        <div>
+          <h4>Información Legal</h4>
+          <ul class="legal-links">
+            <li><a href="aviso-legal.html">Aviso Legal</a></li>
+            <li><a href="politicas-privacidad.html">Políticas de Privacidad</a></li>
+            <li><a href="politicas-empresa.html">Políticas de la Empresa</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 AIDCO. Todos los derechos reservados.</span>
+      </div>
+    </footer>
+
+    <!-- MODAL PARA GALERÍA -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+      <div id="caption"></div>
+    </div>
+
+    <!-- BOTÓN SCROLL TO TOP -->
+    <button id="scrollToTop" class="scroll-to-top" onclick="scrollToTop()">
+      ↑
+    </button>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+            crossorigin=""></script>
+    
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>

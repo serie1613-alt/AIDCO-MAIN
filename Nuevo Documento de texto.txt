@@ -1,0 +1,52 @@
+WHOIS para aidco.com.mx
+Resumen de WHOIS
+Estado/Provincia del titular:
+Baja California
+País del titular:
+Mexico
+Registrador:
+AKKY ONLINE SOLUTIONS, S.A. DE C.V.
+Servidores de nombre:
+ns1.bluehost.com , ns2.bluehost.com
+¿Cómo interpretar la información del WHOIS?
+Datos completos del WHOIS para aidco.com.mx
+
+Domain Name: aidco.com.mx
+
+Created On: 2002-10-24
+Expiration Date: 2026-10-23
+Last Updated On: 2025-10-16
+Registrar: AKKY ONLINE SOLUTIONS, S.A. DE C.V.
+URL: http://www.akky.mx
+Whois TCP URI: whois.akky.mx
+Whois Web URL: http://www.akky.mx/herramientas/whois.jsf
+
+Registrant:
+Name: Jorge Moises Bustamante
+City: Tijuana
+State: Baja California
+Country: Mexico
+
+Administrative Contact:
+Name: Carlos E. Valdez
+City: Tijuana
+State: Baja California
+Country: Mexico
+
+Technical Contact:
+Name: Jorge Moises Bustamante
+City: Tijuana
+State: Baja California
+Country: Mexico
+
+Billing Contact:
+Name: Carlos E. Valdez
+City: Tijuana
+State: Baja California
+Country: Mexico
+
+Name Servers:
+DNS: ns1.bluehost.com
+DNS: ns2.bluehost.com
+
+DNSSEC DS Records:
